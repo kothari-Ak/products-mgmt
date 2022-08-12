@@ -28,7 +28,7 @@ router.get('/users/:userId/cart',authentication,authorization,getCartByUserId)
 router.delete('/users/:userId/cart',authentication,authorization,deleteCartbyId)
 
 // order API's
-router.post('/users/:userId/orders',createOrder)
+router.post('/users/:userId/orders',authentication,authorization,createOrder)
 router.put('/users/:userId/orders',authentication,authorization,updateOrder)
 
 

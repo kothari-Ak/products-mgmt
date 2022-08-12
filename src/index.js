@@ -12,7 +12,7 @@ app.use(express.json())
 
 app.use( multer().any())
 
-const url="mongodb+srv://jai84322:Bing%401234%23@demo.3li78.mongodb.net/group49Database?retryWrites=true&w=majority";
+const url="mongodb+srv://Anjali-11:Krishna@cluster0.hhecqj7.mongodb.net/Anjali100";
 mongoose.connect(url,{useNewUrlParser: true})
 .then(()=>console.log("MongoDb is Connected"))
 .catch(err=>console.log(err))

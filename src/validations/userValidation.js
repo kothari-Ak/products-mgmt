@@ -60,7 +60,7 @@ const isValidSize = (Size) => {
   }
 
   const isValidStatus = (status) => {
-    let correctStatus = ['pending', 'completed', 'cancled']
+    let correctStatus = ['pending', 'completed', 'cancelled']
     return (correctStatus.includes(status))
 }
 
